@@ -18,7 +18,7 @@ data "akamai_contract" "contract" {
 
 data "akamai_property" "example" {
     name = "goldenmaster.wheep.co.uk"
-    version = 2
+    version = 1
 }
 
 resource "akamai_cp_code" "test-wheep-co-uk" {
