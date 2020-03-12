@@ -1,7 +1,7 @@
 provider "akamai" {}
 
 variable "env" {
-        default = "staging"
+        default = "production"
 }
 
 variable "activate" {
